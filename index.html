@@ -1357,6 +1357,16 @@
         </div>
         <div class="project-arrow" style="opacity:0">&#8599;</div>
       </div>
+      <div class="project-row">
+        <div class="project-index">03</div>
+        <div class="project-info">
+          <div class="project-tags">Linux &nbsp;&middot;&nbsp; Home Lab &nbsp;&middot;&nbsp; Networking</div>
+          <div class="project-name">Personal Home Cloud Server</div>
+          <p class="project-desc">A self-hosted home cloud server built by repurposing an old laptop, running Ubuntu Server with a 1.5TB HDD + 500GB SSD storage setup &mdash; providing secure remote file access from anywhere as a cost-effective alternative to commercial cloud subscriptions.</p>
+          <button class="explore-btn" onclick="document.getElementById('cloudServerModal').classList.add('open')">Explore Project &#8599;</button>
+        </div>
+        <div class="project-arrow" style="opacity:0">&#8599;</div>
+      </div>
     </div>
   </div>
 </div>
@@ -1672,6 +1682,40 @@
         <span class="modal-tech-tag">78,556 Records</span>
       </div>
 
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- CLOUD SERVER MODAL -->
+<div class="modal-overlay" id="cloudServerModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('cloudServerModal').classList.remove('open')">&times;</button>
+    <div class="modal-body">
+      <div class="modal-label">Linux &middot; Home Lab &middot; Networking</div>
+      <h2 class="modal-title">Personal Home Cloud Server using Ubuntu Server</h2>
+      <p class="modal-desc">
+        Instead of letting old hardware collect dust, this project repurposes an unused laptop and additional storage drives into a fully functional self-hosted home cloud server. Running on Ubuntu Server, it provides secure remote access to files from anywhere in the world &mdash; acting as a personal cloud storage solution and a cost-effective, full-data-ownership alternative to commercial cloud subscriptions.
+      </p>
+
+      <div class="modal-section-title">Key Features</div>
+      <div class="modal-features">
+        <div class="modal-feature"><div class="modal-feature-dot"></div><span>Repurposed an old laptop into a dedicated home server</span></div>
+        <div class="modal-feature"><div class="modal-feature-dot"></div><span>1.5TB HDD for bulk storage + 500GB SSD for faster performance</span></div>
+        <div class="modal-feature"><div class="modal-feature-dot"></div><span>Ubuntu Server-based deployment, headless and always-on</span></div>
+        <div class="modal-feature"><div class="modal-feature-dot"></div><span>Global, secure remote access to files over the internet</span></div>
+        <div class="modal-feature"><div class="modal-feature-dot"></div><span>Centralized personal cloud storage with full data ownership</span></div>
+        <div class="modal-feature"><div class="modal-feature-dot"></div><span>Cost-effective, self-hosted alternative to cloud subscriptions</span></div>
+      </div>
+
+      <div class="modal-section-title">Tech Stack</div>
+      <div class="modal-tech-row">
+        <span class="modal-tech-tag">Ubuntu Server</span>
+        <span class="modal-tech-tag">SSH</span>
+        <span class="modal-tech-tag">Storage Management</span>
+        <span class="modal-tech-tag">Networking</span>
+        <span class="modal-tech-tag">Self-Hosting</span>
+        <span class="modal-tech-tag">Home Lab Infrastructure</span>
+        <span class="modal-tech-tag">1.5TB HDD + 500GB SSD</span>
       </div>
     </div>
   </div>
